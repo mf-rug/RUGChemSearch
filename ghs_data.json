@@ -1,0 +1,250 @@
+[
+  {
+    "code": "GHS01",
+    "name": "Explosive",
+    "hazard_type": "Physical",
+    "usage": "\n            - Unstable explosives\n            - Explosives, divisions 1.1, 1.2, 1.3, 1.4, 1.5, 1.6\n            - Self-reactive substances and mixtures, types A, B\n            - Organic peroxides, types A, B\n        ",
+    "example": "azidoazide azide, TNT, chromyl chloride, nitroglycerin",
+    "pictogram": "ghs02.svg"
+  },
+  {
+    "code": "GHS02",
+    "name": "Flammable",
+    "hazard_type": "Physical",
+    "usage": "\n            - Flammable gases, category 1\n            - Flammable aerosols, categories 1, 2\n            - Flammable liquids, categories 1, 2, 3, 4\n            - Flammable solids, categories 1, 2\n            - Self-reactive substances and mixtures, types B, C, D, E, F\n            - Pyrophoric liquids, category 1\n            - Pyrophoric solids, category 1\n            - Combustible solids, category 3\n            - Combustible liquids, category 3\n            - Self-heating substances and mixtures, categories 1, 2\n            - Substances and mixtures, which in contact with water,\n            - emit flammable gases, categories 1, 2, 3'\n            - Organic peroxides, types B, C, D, E, F\n        ",
+    "example": "acetone, methanol, generally most solvents.",
+    "pictogram": "ghs02.svg"
+  },
+  {
+    "code": "GHS03",
+    "name": "Oxidizing",
+    "hazard_type": "Physical",
+    "usage": "\n            - Oxidizing gases, category 1\n            - Oxidizing liquids, categories 1, 2, 3\n            - Oxidizing solids, categories 1, 2, 3\n        ",
+    "example": "sulfur dioxide, most halogens, potassium permanganate, nitric acid ",
+    "pictogram": "ghs03.svg"
+  },
+  {
+    "code": "GHS04",
+    "name": "Compressed Gas",
+    "hazard_type": "Physical",
+    "usage": "\n            - Compressed gases\n            - Liquefied gases\n            - Refrigerated liquefied gases\n            - Dissolved gases\n        ",
+    "example": "liquid nitrogen, liquid oxygen, liquid helium",
+    "pictogram": "ghs04.svg"
+  },
+  {
+    "code": "GHS05",
+    "name": "Corrosive",
+    "hazard_type": "Physical",
+    "usage": "\n            - Corrosive to metals, category 1\n            - Explosives, divisions 1.5, 1.6\n            - Flammable gases, category 2\n            - Self-reactive substances and mixtures\n            - type G (see HAZMAT Class 4 Flammable solids)\n            - Organic peroxides, type G\n            - Skin corrosion, categories 1A, 1B, 1C\n            - Serious eye damage, category 1\n        ",
+    "usage_exclusion": "\n            - Explosives, divisions 1.5, 1.6\n            - Flammable gases, category 2\n            - Self-reactive substances and mixtures, type G (see HAZMAT Class 4 Flammable solids)\n            - Organic peroxides, type G\n        ",
+    "example": "Strong acids/bases (nitric acid, sodium hydroxide), calcium oxide, anhydrous zinc chloride can be corrosive ",
+    "pictogram": "ghs05.svg"
+  },
+  {
+    "code": "GHS06",
+    "name": "Toxic",
+    "hazard_type": "Health",
+    "usage": "\n            Acute toxicity (oral, dermal, inhalation), categories 1, 2, 3\n        ",
+    "example": "Manganese Heptoxide (fire diamond rating at health hazard is 4)",
+    "pictogram": "ghs06.svg"
+  },
+  {
+    "code": "GHS07",
+    "name": "Harmful",
+    "hazard_type": "Health",
+    "usage": "\n            - Acute toxicity (oral, dermal, inhalation), category 4\n            - Skin irritation, categories 2, 3\n            - Eye irritation, category 2A\n            - Skin sensitization, category 1\n            - Specific target organ toxicity following single exposure, category 3\n              - Respiratory tract irritation\n              - Narcotic effects\n        ",
+    "usage_exclusion": "\n            Not used\n            - with the \"skull and crossbones\" pictogram\n            - for skin or eye irritation '\n              - if the \"corrosion\" pictogram also appears\n              - if the \"health hazard\" pictogram is used to indicate respiratory sensitization\n        ",
+    "example": "",
+    "pictogram": "ghs07.svg"
+  },
+  {
+    "code": "GHS08",
+    "name": "Health hazard",
+    "hazard_type": "Health",
+    "usage": "\n            - Respiratory sensitization, category 1\n            - Germ cell mutagenicity, categories 1A, 1B, 2\n            - Carcinogenicity, categories 1A, 1B, 2\n            - Reproductive toxicity, categories 1A, 1B, 2\n            - Specific target organ toxicity following single exposure, categories 1, 2\n            - Specific target organ toxicity following repeated exposure'categories 1, 2\n            - Aspiration hazard, categories 1, 2\n        ",
+    "usage_exclusion": "\n            - Acute toxicity (oral, dermal, inhalation), category 5\n            - Eye irritation, category 2B\n            - Reproductive toxicity \u2013 effects on or via lactation\n        ",
+    "example": "Chromium",
+    "pictogram": "ghs08.svg"
+  },
+  {
+    "code": "GHS09",
+    "name": "Environmental hazard",
+    "hazard_type": "Health",
+    "usage": "\n            - Acute hazards to the aquatic environment, category 1\n            - Chronic hazards to the aquatic environment, categories 1, 2 \n            - Environmental toxicity, categories 1, 2\n        ",
+    "usage_exclusion": "\n            - Acute hazards to the aquatic environment, categories 2, 3\n            - Chronic hazards to the aquatic environment, categories 3, 4\n        ",
+    "example": "Manganese Heptoxide (fire diamond rating at health hazard is 4)",
+    "pictogram": "ghs09.svg"
+  },
+  {
+    "code": "Division1.1",
+    "name": "Division 1.1",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "\n            Explosives - Substances and articles which have a mass explosion hazard\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division11.svg"
+  },
+  {
+    "code": "Division1.2",
+    "name": "Division 1.2",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "\n            Explosives - Substances and articles which have a projection hazard but not a mass explosion hazard\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division12.svg"
+  },
+  {
+    "code": "Division1.3",
+    "name": "Division 1.3",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "\n            Explosives - Substances and articles which have a fire hazard and either a minor blast hazard or a minor projection hazard or both, but not a mass explosion hazard\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division13.svg"
+  },
+  {
+    "code": "Division1.4",
+    "name": "Division 1.4",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "\n            Explosives - Substances and articles which are classified as explosives but which present no significant hazard\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division14.svg"
+  },
+  {
+    "code": "Division1.5",
+    "name": "Division 1.5",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "Explosives - Very insensitive substances which have a mass explosion hazard",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division15.svg"
+  },
+  {
+    "code": "Division1.6",
+    "name": "Division 1.6",
+    "hazard_type": "Transport - Class 1 - Explosives",
+    "usage": "Explosives - No hazard statement",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division16.svg"
+  },
+  {
+    "code": "Division2.1",
+    "name": "Division 2.1",
+    "hazard_type": "Transport - Class 2 - Gases",
+    "usage": "\n            Flammable gases \u2013 Gases which at 20 \u00b0C and a standard pressure of 101.3 kPa: \n            - are ignitable when in a mixture of 13 percent or less by volume with air; or\n            - have a flammable range with air of at least 12 percentage points regardless of the lower flammable limit.\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division21.svg"
+  },
+  {
+    "code": "Division2.2",
+    "name": "Division 2.2",
+    "hazard_type": "Transport - Class 2 - Gases",
+    "usage": "\n            Non-flammable non-toxic gases \u2013 Gases: \n            - which are asphyxiant \u2013 gases which dilute or replace the oxygen normally in the atmosphere; or\n            - are oxidizing \u2013 gases which may, generally by providing oxygen, cause or contribute to the combustion of other material more than air does; or\n            - do not come under the other divisions.\n            ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division22.svg"
+  },
+  {
+    "code": "Division2.3",
+    "name": "Division 2.3",
+    "hazard_type": "Transport - Class 2 - Gases",
+    "usage": "\n            Toxic gases \u2013 Gases which:\n            - are known to be so toxic or corrosive to humans as to pose a hazard to health; or\n            - are presumed to be toxic or corrosive to humans because they have an LC50 value equal to or less than 5000 ml/m3 (ppm).\n        ",
+    "note": "The asterisks are replaced by the class number and compatibility code",
+    "pictogram": "division23.svg"
+  },
+  {
+    "code": "Class3",
+    "name": "Class 3",
+    "hazard_type": "Transport - Classes 3 and 4 - Flammable liquids and solids",
+    "usage": "\n            Flammable liquids \u2013 Liquids which have a flash point of less than 60 \u00b0C and which are capable of sustaining combustion \n        ",
+    "pictogram": "class3.svg"
+  },
+  {
+    "code": "Division4.1",
+    "name": "Division 4.1",
+    "hazard_type": "Transport - Classes 3 and 4 - Flammable liquids and solids",
+    "usage": "\n            Flammable solids, self-reactive substances and solid desensitized explosives \u2013 Solids which, under conditions encountered in transport, are readily combustible or may cause or contribute to fire through friction; self-reactive substances which are liable to undergo a strongly exothermic reaction; solid desensitized explosives which may explode if not diluted sufficiently  \n        ",
+    "pictogram": "division41.svg"
+  },
+  {
+    "code": "Division4.2",
+    "name": "Division 4.2",
+    "hazard_type": "Transport - Classes 3 and 4 - Flammable liquids and solids",
+    "usage": "\n            Substances liable to spontaneous combustion \u2013 Substances which are liable to spontaneous heating under normal conditions encountered in transport, or to heating up in contact with air, and being then liable to catch fire   \n        ",
+    "example": "e.g. manganese heptoxide",
+    "pictogram": "division42.svg"
+  },
+  {
+    "code": "Division4.3",
+    "name": "Division 4.3",
+    "hazard_type": "Transport - Classes 3 and 4 - Flammable liquids and solids",
+    "usage": "\n            Substances which in contact with water emit flammable gases \u2013 Substances which, by interaction with water, are liable to become spontaneously flammable or to give off flammable gases in dangerous quantities\n        ",
+    "pictogram": "division43.svg"
+  },
+  {
+    "code": "Division5.1",
+    "name": "Division 5.1",
+    "hazard_type": "Transport - Other GHS transport classes",
+    "usage": "\n            Oxidizing substances \u2013 Substances which, while in themselves not necessarily combustible, may, generally by yielding oxygen, cause, or contribute to, the combustion of other material \n        ",
+    "pictogram": "division51.svg"
+  },
+  {
+    "code": "Division5.2",
+    "name": "Division 5.2",
+    "hazard_type": "Transport - Other GHS transport classes",
+    "usage": "\n            Toxic substances \u2013 Substances with an LD50 value \u2264 300 mg/kg (oral) or \u2264 1000 mg/kg (dermal) or an LC50 value \u2264 4000 ml/m3 (inhalation of dusts or mists) \n        ",
+    "pictogram": "division52.svg"
+  },
+  {
+    "code": "Division6.1",
+    "name": "Division 6.1",
+    "hazard_type": "Transport - Other GHS transport classes",
+    "usage": "\n            Organic peroxides \u2013 Organic substances which contain the bivalent \u2013O\u2013O\u2013 structure and may be considered derivatives of hydrogen peroxide, where one or both of the hydrogen atoms have been replaced by organic radicals\n        ",
+    "example": "nearly everything that contains cyanide groups ",
+    "pictogram": "division61.svg"
+  },
+  {
+    "code": "Class6.2",
+    "name": "Class 6.2",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Infectious substances\n        ",
+    "pictogram": "class62.svg"
+  },
+  {
+    "code": "Class7a",
+    "name": "Class 7a",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Radioactive material I\n         ",
+    "pictogram": "class7a.svg"
+  },
+  {
+    "code": "Class7b",
+    "name": "Class 7b",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Radioactive material II\n         ",
+    "pictogram": "class7b.svg"
+  },
+  {
+    "code": "Class7c",
+    "name": "Class 7c",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Radioactive material III\n         ",
+    "pictogram": "class7c.svg"
+  },
+  {
+    "code": "Class7e",
+    "name": "Class 7e",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Radioactive material - Fissile\n         ",
+    "pictogram": "class7e.svg"
+  },
+  {
+    "code": "Class8",
+    "name": "Class 8",
+    "hazard_type": "Transport - Other GHS transport classes",
+    "usage": "\n            Corrosive substances \u2013 Substances which:\n            - cause full thickness destruction of intact skin tissue on exposure time of less than 4 hours; or\n            - exhibit a corrosion rate of more than 6.25 mm per year on either steel or aluminium surfaces at 55 \u00b0C\n        ",
+    "pictogram": "class8.svg"
+  },
+  {
+    "code": "Class9",
+    "name": "Class 9",
+    "hazard_type": "Non-GHS transport",
+    "usage": "\n            Miscellaneous dangerous substances and articles \n        ",
+    "pictogram": "class9.svg"
+  }
+]
