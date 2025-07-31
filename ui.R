@@ -125,7 +125,7 @@ if (window.Shiny && document.readyState === 'complete') {
                    6,
                    materialSwitch(
                      'ordered',
-                     'update list with chemicals from the Chemical Order Form (googlesheet)',
+                     'include chemicals from the Chemical Order Form (googlesheet)',
                      status = 'primary',
                      width = '100%',
                      right = TRUE
